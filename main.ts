@@ -1,12 +1,12 @@
 /**
  * newsday-atlas — entrypoint for the make.fun news-image contest
- * (news-image-20261117).
+ * (news-image-20261118).
  *
  * What it does:
- *   Copies this repository's `entry.png` — a front-page style poster of the
- *   world's news of Tuesday 17 November 2026 — into the contest output
- *   directory as `entry.png`. That is the whole program: one static,
- *   dependency-free copy.
+ *   Copies this repository's `entry.png` — a front-page style broadsheet of the
+ *   world's news of Wednesday 18 November 2026 (30 stories, 7 regions, day-in-numbers
+ *   strip) — into the contest output directory as `entry.png`. That is the whole
+ *   program: one static, dependency-free copy.
  *
  * Where it writes:
  *   Inside the grading container the artifact must land at the fixed path
