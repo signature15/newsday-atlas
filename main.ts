@@ -1,3 +1,4 @@
+import { join } from 'node:path';
 /**
  * newsday-atlas — entrypoint for the make.fun news-image contest
  * (news-image-20261118).
@@ -40,8 +41,6 @@
  */
 
 import { copyFileSync } from "node:fs";
-import { join } from "node:path";
-
 // /output inside the grading container; MAKEFUN_OUTPUT_DIR stands in for
 // it anywhere else.
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
